@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/dhpeng/uplooking/c/120409/01C_lang/day3_arr_ptr'
+let g:netrw_dirhist_2='/home/dhpeng/c'
+let g:netrw_dirhist_3='/home/dhpeng/uplooking/c/120409/01C_lang'
+let g:netrw_dirhist_4='/home/dhpeng/prac'
+let g:netrw_dirhist_5='/home/dhpeng/.vim'
+let g:netrw_dirhist_6='/home/dhpeng/c'
+let g:netrw_dirhist_7='/home/dhpeng/uplooking/c/120409/02Data_struct/03kernel_list'
+let g:netrw_dirhist_8='/home/dhpeng/prac/mstrfunc'
+let g:netrw_dirhist_9='/home/dhpeng/uplooking/c'
