@@ -1,4 +1,5 @@
 set nu
+"auto indent
 set ai
 set ts=8
 
@@ -19,3 +20,6 @@ colorscheme my_darkblue
 "set mouse=a
 
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+
+"remember cursor position
+au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
