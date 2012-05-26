@@ -3,6 +3,11 @@ set nu
 set ai
 set ts=8
 
+set ignorecase
+
+"incremental searching
+set incsearch
+
 "not compatibal with vi
 set nocp
 
@@ -22,4 +27,8 @@ colorscheme my_darkblue
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 
 "remember cursor position
-au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+"au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+autocmd BufReadPost *
+    \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \   exe "normal! g`\"" |
+    \ endif
