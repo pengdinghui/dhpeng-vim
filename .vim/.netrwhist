@@ -1,9 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/david/sync/prac/cpp_qt/test_cpp/inherit'
-let g:netrw_dirhist_2='/home/david/misc/ping/sample'
-let g:netrw_dirhist_3='/home/david/lab/libjpeg'
-let g:netrw_dirhist_4='/home/david/lab/libjpeg/jpeg-8d'
-let g:netrw_dirhist_5='/home/david/lab/djpeg'
-let g:netrw_dirhist_6='/home/david/Desktop/v4l2_exam/v4l2/cameraServer/src'
-let g:netrw_dirhist_7='/home/david/.vim'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/david/lab/asm/hello'
+let g:netrw_dirhist_2='/home/david/sync/prac/kernel/5_INT/keyboard_int'
+let g:netrw_dirhist_3='/mnt/usb/work/2440'
+let g:netrw_dirhist_4='/home/david/sync/prac/kernel'
