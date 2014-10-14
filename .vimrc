@@ -5,6 +5,8 @@ set ts=8
 
 set ignorecase
 
+syntax on
+
 
 """""""""""""""""""""""""""""""""""""""""""
 "	search setting
